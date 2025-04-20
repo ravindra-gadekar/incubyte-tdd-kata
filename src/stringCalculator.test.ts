@@ -8,4 +8,8 @@ describe('String Calculator', () => {
   test('single number returns the number', () => {
     expect(add('1')).toBe(1);
   });
+
+  test('two numbers comma delimited returns the sum', () => {
+    expect(add('1,5')).toBe(6);
+  });
 });
