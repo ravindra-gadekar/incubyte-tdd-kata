@@ -9,3 +9,5 @@ try {
 } catch (e: any) {
   console.log(e.message);
 }
+console.log(`add("1\n2,3") = ${add('1\n2,3')}`);
+console.log(`add("//;\n1;2") = ${add('//;\n1;2')}`);
