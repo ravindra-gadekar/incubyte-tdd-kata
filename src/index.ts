@@ -7,6 +7,7 @@ console.log(`add("") = ${add('')}`);
 console.log(`add("1") = ${add('1')}`);
 // Test case 3: any amount of numbers
 console.log(`add("1,2,3") = ${add('1,2,3')}`);
+// Test case 4: negative numbers
 try {
   console.log(`add("1,-2,3,-4") = ${add('1,-2,3,-4')}`);
 } catch (e: any) {
